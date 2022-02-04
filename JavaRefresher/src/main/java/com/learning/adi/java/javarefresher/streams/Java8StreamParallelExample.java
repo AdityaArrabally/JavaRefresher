@@ -18,6 +18,5 @@ public class Java8StreamParallelExample {
 		range2.parallel().forEach(x -> {
 			System.out.println("Thread : " + Thread.currentThread().getName() + ", value: " + x);
 		});
-
 	}
 }
