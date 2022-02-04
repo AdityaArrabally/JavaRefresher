@@ -7,7 +7,7 @@ public class Java8StreamReduce {
 		int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 		// 1st argument, init value = 0
-		int sum = Arrays.stream(numbers).reduce(0, (a, b) -> a + b);
+		int sum = Arrays.stream(numbers).reduce(0, Integer::sum);
 
 		System.out.println("sum : " + sum); // 55
 	}
