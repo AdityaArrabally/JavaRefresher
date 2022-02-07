@@ -7,14 +7,12 @@ import static java.util.stream.Collectors.summarizingDouble;
 import static java.util.stream.Collectors.toCollection;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
-import static java.util.stream.Collectors.toSet;
 
 import java.util.Arrays;
 import java.util.DoubleSummaryStatistics;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.function.Function;
 
 public class Java8Collectors {
