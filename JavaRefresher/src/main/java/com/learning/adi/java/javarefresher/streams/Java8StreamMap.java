@@ -15,6 +15,6 @@ public class Java8StreamMap {
 
 		// Java 8
 		List<String> collect = staff.stream().map(x -> x.getName()).collect(Collectors.toList());
-		System.out.println(collect); // [mkyong, jack, lawrence]
+		System.out.println(collect); // [aditya, jack, lawrence]
 	}
 }
