@@ -22,7 +22,6 @@ public class BinarySearchNonJava8 {
 		if (size > 1) {
 			int midValue = start + (size - 1) / 2;
 			System.out.println(midValue);
-
 			if (arr[midValue] == findValue) {
 				return midValue;
 			} else if (arr[midValue] > findValue) {
