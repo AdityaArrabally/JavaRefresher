@@ -8,6 +8,6 @@ public class BinarySearchJava8 {
 		
 		int result = Arrays.binarySearch(integers, 100);
 		
-		System.out.println(result);
+		System.out.println(result); 
 	}
 }
