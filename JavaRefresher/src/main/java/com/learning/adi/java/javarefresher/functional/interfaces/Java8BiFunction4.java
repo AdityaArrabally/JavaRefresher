@@ -19,7 +19,7 @@ public class Java8BiFunction4 {
 			}
 		});
 
-		System.out.println(result1); // [node, java, javascript]
+		System.out.println(result1); // [node, java, javascript, C++]
 
 		List<String> result2 = obj.filterList(list, "c", (l1, condition) -> {
 			if (l1.startsWith(condition)) {
